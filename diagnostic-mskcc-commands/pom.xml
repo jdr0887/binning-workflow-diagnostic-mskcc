@@ -2,13 +2,13 @@
   <parent>
     <groupId>org.renci.binning.workflows</groupId>
     <artifactId>diagnostic-mskcc</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
   </parent>
   <name>Binning :: Workflow :: Diagnostic MSKCC :: Commands</name>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.renci.binning.workflows.diagnostic-mskcc</groupId>
   <artifactId>diagnostic-mskcc-commands</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
