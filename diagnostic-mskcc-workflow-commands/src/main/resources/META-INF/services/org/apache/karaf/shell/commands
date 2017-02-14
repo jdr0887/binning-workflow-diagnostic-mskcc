@@ -1,0 +1,6 @@
+org.renci.canvas.binning.diagnostic.mskcc.commands.AnnotateVariantsAction
+org.renci.canvas.binning.diagnostic.mskcc.commands.CreateBinningJobAction
+org.renci.canvas.binning.diagnostic.mskcc.commands.GenerateReportAction
+org.renci.canvas.binning.diagnostic.mskcc.commands.LoadVCFAction
+org.renci.canvas.binning.diagnostic.mskcc.commands.UpdateDiagnosticBinsAction
+org.renci.canvas.binning.diagnostic.mskcc.commands.UpdateFrequenciesAction

@@ -1,0 +1,15 @@
+<features name="diagnostic-mskcc-workflow-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
+
+  <feature name="diagnostic-mskcc-workflow" version="${project.version}" resolver="(obr)">
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-mskcc-workflow/diagnostic-mskcc-workflow-commons/${project.version}</bundle>
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-mskcc-workflow/diagnostic-mskcc-workflow-commands/${project.version}</bundle>    
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-mskcc-workflow/diagnostic-mskcc-workflow-executor/${project.version}</bundle>
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-mskcc-workflow/diagnostic-mskcc-workflow-ws/${project.version}</bundle>
+  </feature>
+
+</features>
+
+
+
+
+
