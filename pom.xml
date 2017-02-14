@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <groupId>org.renci.binning</groupId>
+    <groupId>org.renci.canvas</groupId>
     <artifactId>binning</artifactId>
-    <version>0.0.35</version>
+    <version>0.0.38</version>
   </parent>
-  <name>Binning :: Workflow :: Diagnostic MSKCC</name>
+  <name>CANVAS :: Binning :: Diagnostic MSKCC Workflow</name>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.renci.binning.workflows</groupId>
-  <artifactId>diagnostic-mskcc</artifactId>
-  <version>0.0.14-SNAPSHOT</version>
+  <groupId>org.renci.canvas.binning</groupId>
+  <artifactId>diagnostic-mskcc-workflow</artifactId>
+  <version>0.0.13-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
     <maven.site.plugin.skip>false</maven.site.plugin.skip>    
@@ -33,22 +33,22 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-	<groupId>org.renci.binning.workflows.diagnostic-mskcc</groupId>
-	<artifactId>diagnostic-mskcc-commons</artifactId>
-	<version>0.0.14-SNAPSHOT</version>
+	<groupId>org.renci.canvas.binning.diagnostic-mskcc-workflow</groupId>
+	<artifactId>diagnostic-mskcc-workflow-commons</artifactId>
+	<version>0.0.13-SNAPSHOT</version>
       </dependency>
       <dependency>
-	<groupId>org.renci.binning.workflows.diagnostic-mskcc</groupId>
-	<artifactId>diagnostic-mskcc-executor</artifactId>
-	<version>0.0.14-SNAPSHOT</version>
+	<groupId>org.renci.canvas.binning.diagnostic-mskcc-workflow</groupId>
+	<artifactId>diagnostic-mskcc-workflow-executor</artifactId>
+	<version>0.0.13-SNAPSHOT</version>
       </dependency>      
     </dependencies>
   </dependencyManagement>  
   <modules>
-    <module>diagnostic-mskcc-features</module>
-    <module>diagnostic-mskcc-commands</module>
-    <module>diagnostic-mskcc-executor</module>
-    <module>diagnostic-mskcc-commons</module>
-    <module>diagnostic-mskcc-ws</module>
+    <module>diagnostic-mskcc-workflow-features</module>
+    <module>diagnostic-mskcc-workflow-commands</module>
+    <module>diagnostic-mskcc-workflow-executor</module>
+    <module>diagnostic-mskcc-workflow-commons</module>
+    <module>diagnostic-mskcc-workflow-ws</module>
   </modules>
 </project>
